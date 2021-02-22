@@ -1,0 +1,133 @@
+
+
+.topbar
+{
+    width: 675px;
+    height: 5px;
+    margin: 0 auto;
+    background: linear-gradient(to right,#81FFEF,#F067B4);
+    border-radius: 10px;
+}
+
+body
+{
+    background-color: rgb(249,250,251);
+}
+
+main
+{
+    width: 625px;
+    background-color: rgb(255,255,255);
+    margin: 0 auto;
+    padding: 25px 25px 25px 25px;
+   
+    
+}
+
+.author
+{
+    background-color: rgb(255,255,255);
+    height: 50px;   
+}
+    
+.author img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author .title
+{
+   float: left;
+   height: 50px;
+   line-height: 50px;
+   padding-left: 15px;
+   font-size: 30px;
+   font-family: Brush Script MT, Brush Script Std, cursive;
+   margin: 0;
+}
+
+.author .title h3{
+    margin: 0;
+}
+
+.menu
+{
+    margin-top: 20px;
+    height: 40px;
+    padding: 0 25px 0 25px;
+}
+
+.menu a{
+    padding: 0 119px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.menu a:hover{
+    background-color: rgb(249,250,251);
+    color: #3f3f3f;
+}
+
+.signature
+{
+    margin: 20px 0;
+}
+
+.post
+{
+    padding: 0;
+    border-bottom: rgb(224,224,224) 1px solid;
+    font-family: 'Merriweather','Georgia',serif;
+  
+}
+
+.post-title-link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px auto;
+    margin-bottom: 1px;
+    color: black;
+    display: block;
+}
+
+.post-title-link:hover{
+    background-color: rgb(245,245,245);
+}
+
+.linkin{
+    padding: 8px 16px;
+}
+
+.post-title-link .linkin span{
+    display: block;
+}
+
+
+
+.footer
+{
+    margin-top: 25px;
+}
+
+/* pagination */
+.page-nav {
+    margin: 1em 0;
+    text-align: center;
+    color: var(--secondary-color);
+    font-family: var(--secondary-stack);
+    font-size: 0.9em;
+    height: auto;
+    line-height: inherit;
+    padding: 0;
+  }
+  
+  .page-number, .space, .extend {
+    font-size: 1.3em;
+    margin: 0 0.4em;
+    text-decoration: none;
+  }
