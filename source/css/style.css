@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(249,250,251);
+   background-image: url(./source/image/bg.jpg);
 }
 
 main{
@@ -41,6 +41,54 @@ main{
 
 .author .title h3{
     margin: 0;
+}
+
+.author label{
+    float: right;
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 25px;
+    border: solid 1px #ddd;
+    border-radius: 25px;
+    position: relative;
+    background-color: cyan;
+    overflow: hidden;
+}
+
+.author label input{
+    visibility: hidden;
+}
+.author label input::after{
+    visibility: visible;
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background-color: wheat;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.author label input::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    visibility: visible;
+}
+
+.author label input:checked::after{
+    transform: translateX(25px);
+    background-color: #F067B4;
+}
+
+.author label input:checked::before{
+    background: royalblue;
 }
 
 .menu{

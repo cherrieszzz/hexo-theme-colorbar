@@ -3,7 +3,8 @@ avatar:
   path: /
 
 title: zpyqaq`s Blog 
-  
-footer: © 2021, Built on 2021/2/21 11:04 PM using Hexo
 
 signature: Freshman majoring in software engineering,Recently learning Japanese,Web front-end and Linux
+background-image: /images/bg.jpg
+footer: © 2021, Built on 2021/2/21 11:04 PM using Hexo
+
