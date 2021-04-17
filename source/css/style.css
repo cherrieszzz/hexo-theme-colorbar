@@ -7,7 +7,7 @@
 }
 
 body{
-   background-image: url(./source/image/bg.jpg);
+   background-color: #bfa;
 }
 
 main{
@@ -91,24 +91,26 @@ main{
     background: royalblue;
 }
 
-.menu{
-    margin-top: 20px;
-    height: 40px;
-    padding: 0 25px 0 25px;
+.navbar{
+    height: 30px;
 }
 
-
-.menu a{
-    padding: 0 119px;
+.navbar .menu a{
+    line-height: 30px;
     text-decoration: none;
-    height: 40px;
-    line-height: 40px;
+    color: #000;
 }
 
-.menu a:hover{
-    background-color: rgb(249,250,251);
-    color: #3f3f3f;
-    border-bottom: #F067B4 3px;
+.navbar .menu a:hover{
+    color:#f067b4;
+}
+
+.navbar ul li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin: 0 110px;
+    text-align: center;
 }
 
 .signature{

@@ -2,7 +2,9 @@ avatar:
   author_photo: /images/zpy.jpg
   path: /
 
-title: zpyqaq`s Blog 
+menu:
+  Home: /
+  About: /about
 
 signature: Freshman majoring in software engineering,Recently learning Japanese,Web front-end and Linux
 background-image: /images/bg.jpg
