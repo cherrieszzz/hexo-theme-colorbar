@@ -1,6 +1,15 @@
 <div class="navbar">
     <ul class="menu">
-       <li><a href="/">home</a></li>
-        <li><a href="/about">about</a></li>
+        <%
+        for(let item of theme.navbar) {
+          if (item.enable) {
+      %>
+        <li data-path="<%- item.path %>">
+          <a href="<%- item.path %>"><i class="iconfont">&#xe615;</i><%- item.name %></a>
+        </li>
+      <%
+          }
+        }
+      %>
     </ul>
 </div>

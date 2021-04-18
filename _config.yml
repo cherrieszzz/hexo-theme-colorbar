@@ -2,9 +2,40 @@ avatar:
   author_photo: /images/zpy.jpg
   path: /
 
-menu:
-  Home: /
-  About: /about
+navbar:
+  -
+    name: Home
+    enable: true
+    path: /
+    key: home
+  -
+    name: Archives
+    enable: true
+    path: /archives/
+    key: archives
+  -
+    name: Categories
+    enable: true
+    path: /categories/
+    key: categories
+  -
+    name: Tags
+    enable: true
+    path: /tags/
+    key: tags
+  -
+    name: Friends
+    enable: true
+    path: /friends/
+    key: friends
+  -
+    name: About
+    enable: true
+    path: /about/
+    key: about
+
+
+  
 
 signature: Freshman majoring in software engineering,Recently learning Japanese,Web front-end and Linux
 background-image: /images/bg.jpg

@@ -7,7 +7,7 @@
 }
 
 body{
-   background-color: #bfa;
+   background-color:  #f9fafb;;
 }
 
 main{
@@ -93,25 +93,55 @@ main{
 
 .navbar{
     height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 5px;
+   border-bottom:#000 1px dashed;
+   margin-bottom: 5px;
 }
+
+
+
+.navbar ul li{
+    
+    position: relative;
+    display: inline-block;
+    margin: 0 11px;
+    text-align: center;
+    
+    font-family: sans-serif;
+}
+
+.menu{
+    padding: 0;
+}
+  
 
 .navbar .menu a{
     line-height: 30px;
     text-decoration: none;
     color: #000;
+    padding-bottom: 2px;
 }
 
 .navbar .menu a:hover{
-    color:#f067b4;
+    color: pink;
 }
 
-.navbar ul li{
-    float: left;
-    position: relative;
-    display: inline-block;
-    margin: 0 110px;
-    text-align: center;
+.navbar .menu a:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 8px;
+    opacity: 0.3;
+    background-color: pink;
+    width: 100%;
+    border-radius: 3px;
 }
+
+
 
 .signature{
     margin: 20px 0;
@@ -156,6 +186,23 @@ main{
     margin-top: 25px;
 }
 
+.footer i{
+    color: pink;
+}
+
+.social {
+    padding-bottom: 5px;
+  }
+  
+  .social ul {
+    text-align: center;
+  }
+  
+  .social ul li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+
 /* pagination */
 .page-nav{
     margin: 1em 0;
@@ -173,3 +220,35 @@ main{
     margin: 0 0.4em;
     text-decoration: none;
   }
+
+  /* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #FF2A68;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 3em;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 2494884 */
+    src: url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.eot');
+    src: url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2494884_8dxf1cg0d7v.svg#iconfont') format('svg');
+  }
+
+  .iconfont{
+      font-family: 'iconfont';
+      font-style:normal;
+  }
+
+
